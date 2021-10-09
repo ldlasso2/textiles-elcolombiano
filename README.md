@@ -9,7 +9,7 @@
 - 	Alejandro Restrepo Ángel
 
 **Ruta en la que se encuentra el repositorio en GitHub:**
-https://github.com/MariaGa-lab/MisionTic-Project
+https://github.com/ldlasso2/textiles-elcolombiano
 
 **Link de TRELLO**
 https://trello.com/b/vbQqokBo/proyecto-mintic
