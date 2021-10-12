@@ -3,7 +3,6 @@ import React from 'react'
 function TableProducts() {
     return (
         <>
-        <div class="col-8">
             <table class="table">
                 <thead>
                     <tr>
@@ -26,7 +25,7 @@ function TableProducts() {
                     </tr>
                 </tbody>
             </table>
-        </div>
+
         </>
     )
 }
