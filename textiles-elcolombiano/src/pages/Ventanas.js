@@ -21,7 +21,10 @@ function Ventanas(props) {
           <div className = "col-8">
           <Switch>
               <Route path = {"/"+ props.objeto + "/buscar"}>
-                <Search title = {"Busqueda" + props.objeto} />
+                {(props.objeto === "ventas" && <Search title = {"Busqueda " + props.objeto} busqueda1="Código de venta" busqueda2="Documento cliente" busqueda3="Nombre cliente" />) || 
+                (props.objeto === "productos" && <Search title = {"Busqueda " + props.objeto} busqueda1="Código de producto" busqueda2="Producto" busqueda3="Descripción de producto"  />) || 
+                (props.objeto === "usuarios" && <Search title = {"Busqueda " + props.objeto} busqueda1="Documento de usuario" busqueda2="Nombre usuario"  busqueda3="Rol"/>)}
+                
               </Route>
               <Route path= {"/"+ props.objeto + "/registrar"}>
                 {(props.objeto === "ventas" && <FormSales/>) || (props.objeto === "productos" && <FormProducts />) || (props.objeto === "usuarios" && <UserForm/>)}
