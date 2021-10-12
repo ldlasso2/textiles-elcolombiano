@@ -7,6 +7,7 @@ import UserForm from '../components/UserForm';
 import TableSales from '../components/TableSales';
 import TableProducts from '../components/TableProducts';
 import UserTable from '../components/UserTable';
+import Navbar from '../components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import '../components/components.css'
 

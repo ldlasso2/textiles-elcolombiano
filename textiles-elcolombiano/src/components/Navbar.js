@@ -26,7 +26,10 @@ function Navbar() {
           
         </div>
         <form class="form-inline ">
+          <Link to="/" className="link">
             <button className="btn btn-outline-info" type="submit">Cerrar sesión</button>
+          </Link>
+            
         </form>
       </nav>
       
