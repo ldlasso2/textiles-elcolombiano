@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Ventanas from './pages/Ventanas';
+
 function App() {
   return (
     <div className="App">
